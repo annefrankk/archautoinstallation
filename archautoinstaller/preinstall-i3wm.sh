@@ -124,10 +124,9 @@ echo "Add User to groups (wheel,video,audio,optical,storage,tty)
 echo "--------------------------------------"
 echo "--          i3 Installation       --"
 echo "--------------------------------------"
-pacman -S i3 --noconfirm --needed
+pacman -S i3 
+echo "Please enter your option"
 pacman -S dmenu nitrogen termite --noconfirm --needed
-
-echo "Display Manager"
 
 pacman -S lightdm lightdm-gtk-greeter lightdm-gtk-greeder-settings --noconfirm --needed
 
