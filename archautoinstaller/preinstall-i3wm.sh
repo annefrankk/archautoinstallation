@@ -120,16 +120,9 @@ root
 echo "Add User"
 echo "Eddit sudoers with (EDITOR=nano visudo)"
 echo "Add User to groups (wheel,video,audio,optical,storage,tty)
-
-echo "--------------------------------------"
-echo "--          i3 Installation       --"
-echo "--------------------------------------"
 pacman -S i3 
-echo "Please enter your option"
 pacman -S dmenu nitrogen termite --noconfirm --needed
-
 pacman -S lightdm lightdm-gtk-greeter lightdm-gtk-greeder-settings --noconfirm --needed
-
 systemctl enable lightdm
 echo "--------------------------------------"
 echo "--          End of Script       --"
